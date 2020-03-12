@@ -1,0 +1,87 @@
+/* Meu primeiro arquivo CSS */
+
+p{
+    color: white;
+    font-size: 15px;
+    font-family: "Helvetica, Arial";
+    text-shadow: 1px 1px 1px #111111;
+    text-align: justify;
+    padding-bottom: 50px;
+}
+
+
+h3{
+    color: #990000;
+}
+
+
+body{
+    background-color: black;
+}
+
+header{
+    background-color: #35b8b0;
+    height: 100px;
+    padding: 4px;
+}
+footer{
+    clear: both;
+    font-size: 12px;
+    background-color: #35b8b0;
+    height: 30px;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #111111;
+}
+
+h1{
+    color: #ff705f;
+    text-align: center;
+    margin:0 0 50px 0;
+    text-shadow: 1px 1px 1px #111111;
+}
+#div-principal{
+    clear: both;
+    background-image: url('../images/city2.jpeg');
+    min-height: 375px;
+    background-size: 100%;
+    padding: 92px 0 0 0;
+}
+
+#logo{
+    float: left;
+}
+
+#menu{
+    margin-top: 30px;
+    float: right;
+}
+
+#menu a{
+    padding: 40px 20px;
+    text-decoration: none;
+    color: black;
+    text-shadow: 1px 1px #111111;
+}
+
+#menu a:hover{
+    background-color: #111111;
+    color: #35b8b0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial;
+}
+
+/* class */
+.container{
+    width: 960px;
+    margin:0 auto;
+}
+
+.efeito{
+    background-color: rgb(0, 0, 0, 0.5);
+    padding: 30px 0 0 100px;
+}
